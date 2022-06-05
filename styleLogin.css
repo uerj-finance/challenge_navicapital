@@ -1,0 +1,162 @@
+/*  LOGIN PAGE  */
+
+html{
+
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0px;
+}
+
+#wrapper{
+    position: relative;
+    margin: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+
+}
+
+body{
+
+    margin: 0px;
+    height: 100vh;
+    background: url();
+}
+
+#formlogin{
+
+    position: relative;
+    margin: auto;
+
+    height: 100%;
+
+    display: grid;
+
+    grid-template-columns: 1;
+    grid-template-rows: repeat(1fr,auto-fit);
+
+
+}
+
+#loginarea{
+
+    position: absolute;
+    margin: auto;
+    width: 30%;
+    box-sizing: border-box;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    height: 40vh;
+    padding: 5vh;
+    border-radius: 30px;
+    border: 0.5px solid rgba(0, 0, 0, 0.651);
+    background-color: rgb(37, 35, 35);
+
+    transform: translate(-50%,-50%);
+
+}
+
+[name=user],[name=pass]{
+
+    
+    all: unset;
+    background-color: rgb(37, 35, 35);
+    color: white;
+    border: 1px solid   white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family: 'Fira Sans', sans-serif;
+    color: goldenrod;
+    padding: 2px;
+    
+
+}
+
+[name=user]:focus,[name=pass]:focus{
+
+    border: 1px solid  goldenrod;
+    border-radius: 5px;
+
+}
+
+[for=user],[for=pass]{
+
+    align-self: center;
+    padding: 0px;
+    color: white;
+}
+
+
+[value=Login]{
+
+    all: unset;
+    background-color: rgb(0, 26, 255);
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    transition: 0.2s ease-in-out 0.2s;
+    border-radius: 30px;
+    margin-top: 30px;
+    text-align: center;
+    
+    
+
+}
+
+[value=Login]:hover{
+
+    background-color: goldenrod;
+    cursor:pointer;
+
+}
+
+#titlelogin{
+
+    text-align: center;
+    font-size: 3.8em;
+    margin-top: 10vh;
+    color: rgb(0, 26, 255);
+    margin-bottom: 20px;
+
+}
+
+#desctitle{
+
+    text-align: center;
+    font-size: 0.8em;
+    margin:0px;
+    color: rgb(37, 35, 35);
+    word-spacing: 2px;
+
+}
+
+.spantitle{
+
+    color:goldenrod;
+
+}
+
+footer{
+
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    padding: 0px;
+    height: 10vh;
+}
+
+footer > h3{
+    
+    text-align: center;
+    font-size: 0.8em;
+    margin:0px;
+    color: rgb(37, 35, 35);
+    position: relative;
+    word-spacing: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    
+}
